@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<html lang=''>
+  <head>
+
+<!-- world time -->
+<div style= "margin: 15px 0px 0px; position: relative; z-index:5; top: -10px; right: -580px; display: inline-block; text-align: center;"><noscript><div style="display: inline-block; padding: 2px 4px; margin: 0px 0px 5px; border: 1px solid rgb(204, 204, 204); text-align: center; background-color: transparent;"><a href="http://localtimes.info/difference" style="text-decoration: none; font-size: 13px; color: rgb(245, 242, 242);">World Clock</a></div></noscript><script type="text/javascript" src="http://localtimes.info/world_clock2.php?&cp1_Hex=ffffff&cp2_Hex=000000&cp3_Hex=000000&fwdt=110&ham=0&hbg=1&hfg=0&sid=0&mon=0&wek=0&wkf=0&sep=0&widget_number=21001&lcid=USCA0638,USNY0996,DRXX0008,NIXX0012,FRXX0076,INXX0087"></script></div>
+
+<div style="position:relative; color:white; font-size:80px; top: -100px; font-family: Times New Roman; z-index:4">terra.<!--title--></div>
+
+
+    <script src="http://www.webglearth.com/v2/api.js"></script>  <!--js of earth-->
+    <link rel="stylesheet" type="text/css" href="terra.css" />  <!--css stylesheet page-->
+    <script type="text/javascript" src="terra.js"></script>  <!--our javascript-->
+
+    <title>terra.</title>
+    <!--<meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>-->
+  </head>
+  <body onload="initialize()">
+    <div id="earth_div"></div>
+</div>
+  </body>
+</table>
+</form>
+
+<!--CALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALICALI-->
+
+<!-- california news -->
+<div class ="container" style = "position:relative; width: 240px; z-index:5;  top: -100px; display:none"  id="newscali"><!--here-->
+<embed src="http://7feeds.com/rssinformer.swf?rssinformer.swf" width="240" height="710" id="informer" name="informer" bgcolor="d0x00000" quality="high" wmode="transparent" align="middle" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="http://7feeds.com/rssinformer.swf?version=1.4&title_format=center/_sans/16/0xff0000/b/ni/nu&subtitle_text=Widget title&subtitle_format=center/verdana/11/ff0000/b/ni/nu&feed_title_format=left/arial/14/0xffffff/b/ni/nu&feed_date_format=left/arial/12/0xffffff/b/ni/nu&feed_copy_format=left/arial/12/0xC8BDBD/b/i/nu&feed_text_format=left/arial/12/0x666666/nb/ni/nu&body_bgcolor=0x00000&title_bgcolor=0xEFEFEF&subtitle_bgcolor=0xE3E3E3&footer_bgcolor=0xd1d1d1&feed_bgcolor=0x00000&feed_highlight=0x002100&border_color=0x676767&summary_length=300&scroll_speed=50&item_spacing=12&scroll_buttons=1&num_of_entries=5&pause_time=3000&show_publish_time=1&show_entry_summary=1&show_entry_copyright=0&show_footer=1&use_rounded_corners=1&open_new_window=1&data_url=http://7feeds.com/feed.php&feed_url=http%3A%2F%2Fcalifornianewswire%2Ecom%2FCA%2Flos%5Fangeles%2Ffeed%2F&strip_tags=0&footer_powered_format=right/_sans/11/0x00000/nb/ni/nu&footer_feedo_format=left/_sans/11/0x676767/nb/ni/nu&x_size=240&y_size=710&feed_back_color=0x00000&feeds_num_color=0xffffff&buttons_onpress_color=0x676767&buttons_rollout_color=0xffffff&show_body=1&widget_name=no name&used_theme=1&lang1=Loading..."/><div style="text-align:center; font-size:11px;"></div><div style="text-align:center; font-size:11px;"></div></div><!--3 lines up-->
+
+<!-- california twitter -->
+<div class ="container" style = "position:relative; z-index: 7; width:280px; float:right">
+<!--here--><div id="twittercali" style="position:absolute; top:-930px; right:5; color:white; font-size:10px; z-index:4; display:none"><a class="twitter-timeline" href="https://twitter.com/hashtag/california" data-widget-id="634094726938017796"  height="680"  data-link-color="#5C8A00"  data-chrome="noborders transparent noscrollbar">#local Tweets</a><!--though account-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+</div>
+<!--california insta-->
+<div class ="container" style = "position:relative; z-index: 8; width: 100px; float: right">
+  <div id ="instacali" style = "position:absolute; top:-220px; z-index:5; display:none; right: -150px">
+<iframe src="http://widget.websta.me/in/tag:cupertino/?s=100&w=3&h=2&b=0&p=-15" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:432px; height: 216px" ></iframe> <!-- websta - web.stagram.com -->
+</div>
+</div>
+<!--california spotify-->
+<div id = "spotcali" class = "container" style = "position: relative; z-index: 11; width: 300px; display:none; top: -75px; right: -5px">
+<iframe src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:42zGB0WsGn8nb1SCS3xtQr" width="300" height="100" frameborder="0" allowtransparency="true"></iframe></div><!--Right above-->
+
+
+<!--NEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORKNEWYORK-->
+
+<!-- new york news -->
+<div class ="container" style = "position:relative; width: 240px; z-index:5; top: -100px; display:none"  id="newsnewyork"><!--here-->
+<embed src="http://7feeds.com/rssinformer.swf?rssinformer.swf" width="240" height="710" id="informer" name="informer" bgcolor="d0x00000" quality="high" wmode="transparent" align="middle" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="http://7feeds.com/rssinformer.swf?version=1.4&title_format=center/_sans/16/0xff0000/b/ni/nu&subtitle_text=Widget title&subtitle_format=center/verdana/11/ff0000/b/ni/nu&feed_title_format=left/arial/14/0xffffff/b/ni/nu&feed_date_format=left/arial/12/0xffffff/b/ni/nu&feed_copy_format=left/arial/12/0xC8BDBD/b/i/nu&feed_text_format=left/arial/12/0x666666/nb/ni/nu&body_bgcolor=0x00000&title_bgcolor=0xEFEFEF&subtitle_bgcolor=0xE3E3E3&footer_bgcolor=0xd1d1d1&feed_bgcolor=0x00000&feed_highlight=0x002100&border_color=0x676767&summary_length=300&scroll_speed=50&item_spacing=12&scroll_buttons=1&num_of_entries=5&pause_time=3000&show_publish_time=1&show_entry_summary=1&show_entry_copyright=0&show_footer=1&use_rounded_corners=1&open_new_window=1&data_url=http://7feeds.com/feed.php&feed_url=http://7feeds.com/feed.php&feed_url=http%3A%2F%2Ffeeds%2Enydailynews%2Ecom%2Fnydnrss%2Fnew%2Dyork&strip_tags=0&footer_powered_format=right/_sans/11/0x00000/nb/ni/nu&footer_feedo_format=left/_sans/11/0x676767/nb/ni/nu&x_size=240&y_size=710&feed_back_color=0x00000&feeds_num_color=0xffffff&buttons_onpress_color=0x676767&buttons_rollout_color=0xffffff&show_body=1&widget_name=no name&used_theme=1&lang1=Loading..."/><div style="text-align:center; font-size:11px;"></div><div style="text-align:center; font-size:11px;"></div></div><!--3 lines up-->
+
+<!-- NY twitter -->
+<div class ="container" style = "position:relative; z-index: 7; width:280px; float:right">
+<!--here--><div id="twitternewyork" style="position:absolute; top:-930px; right:5; color:white; font-size:10px; z-index:4; display:none"><a class="twitter-timeline" href="https://twitter.com/hashtag/newyork" data-widget-id="634101076698996736"  height="680"  data-link-color="#5C8A00"  data-chrome="noborders transparent noscrollbar">#local Tweets</a><!--though account-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+</div>
+<!--NY insta-->
+<div class ="container" style = "position:relative; z-index: 8; width: 100px; float: right">
+  <div id ="instanewyork" style = "position:absolute; top:-220px; z-index:5; display:none; right: -150px">
+<iframe src="http://widget.websta.me/in/tag:newyork/?s=100&w=3&h=2&b=0&p=-15" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:432px; height: 216px" ></iframe> <!-- websta - web.stagram.com --><!--cupertino-->
+</div>
+</div>
+<!--NY spotify-->
+<div id = "spotnewyork" class = "container" style = "position: relative; z-index: 11; width: 300px; display:none; top: -75px; right: -5px">
+<iframe src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:4sukh9zImQDLxBR4QRnxDh" width="300" height="100" frameborder="0" allowtransparency="true"></iframe></div><!--Right above-->
+
+
+
+
+<!-- IndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndiaIndia-->
+
+<div class ="container" style = "position:relative; width: 240px; z-index:5; top: -100px ; display:none"  id="newsindia"><!--here-->
+<embed src="http://7feeds.com/rssinformer.swf?rssinformer.swf" width="240" height="710" id="informer" name="informer" bgcolor="d0x00000" quality="high" wmode="transparent" align="middle" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="http://7feeds.com/rssinformer.swf?version=1.4&title_format=center/_sans/16/0xff0000/b/ni/nu&subtitle_text=Widget title&subtitle_format=center/verdana/11/ff0000/b/ni/nu&feed_title_format=left/arial/14/0xffffff/b/ni/nu&feed_date_format=left/arial/12/0xffffff/b/ni/nu&feed_copy_format=left/arial/12/0xC8BDBD/b/i/nu&feed_text_format=left/arial/12/0x666666/nb/ni/nu&body_bgcolor=0x00000&title_bgcolor=0xEFEFEF&subtitle_bgcolor=0xE3E3E3&footer_bgcolor=0xd1d1d1&feed_bgcolor=0x00000&feed_highlight=0x002100&border_color=0x676767&summary_length=300&scroll_speed=50&item_spacing=12&scroll_buttons=1&num_of_entries=5&pause_time=3000&show_publish_time=1&show_entry_summary=1&show_entry_copyright=0&show_footer=1&use_rounded_corners=1&open_new_window=1&data_url=http://7feeds.com/feed.php&feed_url=http://7feeds.com/feed.php&feed_url=http%3A%2F%2Ftimesofindia%2Efeedsportal%2Ecom%2Fc%2F33039%2Ff%2F533975%2Findex%2Erss&strip_tags=0&footer_powered_format=right/_sans/11/0x00000/nb/ni/nu&footer_feedo_format=left/_sans/11/0x676767/nb/ni/nu&x_size=240&y_size=710&feed_back_color=0x00000&feeds_num_color=0xffffff&buttons_onpress_color=0x676767&buttons_rollout_color=0xffffff&show_body=1&widget_name=no name&used_theme=1&lang1=Loading..."/><div style="text-align:center; font-size:11px;"></div><div style="text-align:center; font-size:11px;"></div></div><!--3 lines up-->
+
+<!-- India twitter -->
+<div class ="container" style = "position:relative; z-index: 7; width:280px; float:right">
+<!--here--><div id="twitterindia" style="position:absolute; top:-930px; right:5; color:white; font-size:10px; z-index:4; display:none"><a class="twitter-timeline" href="https://twitter.com/hashtag/India" data-widget-id="634102974965489665"  height="680"  data-link-color="#5C8A00"  data-chrome="noborders transparent noscrollbar">#local Tweets</a><!--though account-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+</div>
+<!--India insta-->
+<div class ="container" style = "position:relative; z-index: 8; width: 100px; float: right">
+  <div id ="instaindia" style = "position:absolute; top:-220px; z-index:5; display:none; right: -150px">
+<iframe src="http://widget.websta.me/in/tag:india/?s=100&w=3&h=2&b=0&p=-15" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:432px; height: 216px" ></iframe> <!-- websta - web.stagram.com --><!--cupertino-->
+</div>
+</div>
+<!--India spotify-->
+<div id = "spotindia" class = "container" style = "position: relative; z-index: 11; width: 300px; display:none; top: -75px; right: -5px">
+<iframe src="https://embed.spotify.com/?uri=spotify:user:spotify:playlist:51nySbAfNolqdTv2OG8Viq"  width="300" height="100" frameborder="0" allowtransparency="true"></iframe></div><!--Right above-->
+
+
+
+<!-- NigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeriaNigeria-->
+<div class ="container" style = "position:relative; width: 240px; z-index:5; top: -100px; display:none"  id="newsNigeria"><!--here-->
+<embed src="http://7feeds.com/rssinformer.swf?rssinformer.swf" width="240" height="710" id="informer" name="informer" bgcolor="d0x00000" quality="high" wmode="transparent" align="middle" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="http://7feeds.com/rssinformer.swf?version=1.4&title_format=center/_sans/16/0xff0000/b/ni/nu&subtitle_text=Widget title&subtitle_format=center/verdana/11/ff0000/b/ni/nu&feed_title_format=left/arial/14/0xffffff/b/ni/nu&feed_date_format=left/arial/12/0xffffff/b/ni/nu&feed_copy_format=left/arial/12/0xC8BDBD/b/i/nu&feed_text_format=left/arial/12/0x666666/nb/ni/nu&body_bgcolor=0x00000&title_bgcolor=0xEFEFEF&subtitle_bgcolor=0xE3E3E3&footer_bgcolor=0xd1d1d1&feed_bgcolor=0x00000&feed_highlight=0x002100&border_color=0x676767&summary_length=300&scroll_speed=50&item_spacing=12&scroll_buttons=1&num_of_entries=5&pause_time=3000&show_publish_time=1&show_entry_summary=1&show_entry_copyright=0&show_footer=1&use_rounded_corners=1&open_new_window=1&data_url=http://7feeds.com/feed.php&feed_url=http://7feeds.com/feed.php&feed_url=http%3A%2F%2Fwww%2Enigeria70%2Ecom%2Fnigerian%5Fnews%5Fpaper%2Frss%2Fbbc&strip_tags=0&footer_powered_format=right/_sans/11/0x00000/nb/ni/nu&footer_feedo_format=left/_sans/11/0x676767/nb/ni/nu&x_size=240&y_size=710&feed_back_color=0x00000&feeds_num_color=0xffffff&buttons_onpress_color=0x676767&buttons_rollout_color=0xffffff&show_body=1&widget_name=no name&used_theme=1&lang1=Loading..."/><div style="text-align:center; font-size:11px;"></div><div style="text-align:center; font-size:11px;"></div></div><!--3 lines up-->
+
+<!-- Nigeria twitter -->
+<div class ="container" style = "position:relative; z-index: 7; width:280px; float:right">
+<!--here--><div id="twitterNigeria" style="position:absolute; top:-930px; right:5; color:white; font-size:10px; z-index:4; display:none"><a class="twitter-timeline" href="https://twitter.com/hashtag/Nigeria" data-widget-id="634801206074978308"  height="680"  data-link-color="#5C8A00"  data-chrome="noborders transparent noscrollbar">#local Tweets</a><!--though account-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+</div>
+<!--Nigeria insta-->
+<div class ="container" style = "position:relative; z-index: 8; width: 100px; float: right">
+  <div id ="instaNigeria" style = "position:absolute; top:-220px; z-index:5; display:none; right: -150px">
+<iframe src="http://widget.websta.me/in/tag:nigeria/?s=100&w=3&h=2&b=0&p=-15" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:432px; height: 216px" ></iframe> <!-- websta - web.stagram.com --><!--cupertino-->
+</div>
+</div>
+<!--Nigeria spotify-->
+<div id = "spotNigeria" class = "container" style = "position: relative; z-index: 11; width: 300px; display:none; top: -75px; right: -5px">
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aartist%3A3ZUn6LYxdmmPYQqBhFWI3h"  width="300" height="100" frameborder="0" allowtransparency="true"></iframe></div><!--Right above-->
+
+<!-- DRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDRDR-->
+<div class ="container" style = "position:relative; width: 240px; z-index:5; top: -100px; display:none"  id="newsDR"><!--here-->
+<embed src="http://7feeds.com/rssinformer.swf?rssinformer.swf" width="240" height="710" id="informer" name="informer" bgcolor="d0x00000" quality="high" wmode="transparent" align="middle" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="http://7feeds.com/rssinformer.swf?version=1.4&title_format=center/_sans/16/0xff0000/b/ni/nu&subtitle_text=Widget title&subtitle_format=center/verdana/11/ff0000/b/ni/nu&feed_title_format=left/arial/14/0xffffff/b/ni/nu&feed_date_format=left/arial/12/0xffffff/b/ni/nu&feed_copy_format=left/arial/12/0xC8BDBD/b/i/nu&feed_text_format=left/arial/12/0x666666/nb/ni/nu&body_bgcolor=0x00000&title_bgcolor=0xEFEFEF&subtitle_bgcolor=0xE3E3E3&footer_bgcolor=0xd1d1d1&feed_bgcolor=0x00000&feed_highlight=0x002100&border_color=0x676767&summary_length=300&scroll_speed=50&item_spacing=12&scroll_buttons=1&num_of_entries=5&pause_time=3000&show_publish_time=1&show_entry_summary=1&show_entry_copyright=0&show_footer=1&use_rounded_corners=1&open_new_window=1&data_url=http://7feeds.com/feed.php&feed_url=http://7feeds.com/feed.php&feed_url=http%3A%2F%2Fwww%2Edominicantoday%2Ecom%2Frss%2Ffrontpage%2F&strip_tags=0&footer_powered_format=right/_sans/11/0x00000/nb/ni/nu&footer_feedo_format=left/_sans/11/0x676767/nb/ni/nu&x_size=240&y_size=710&feed_back_color=0x00000&feeds_num_color=0xffffff&buttons_onpress_color=0x676767&buttons_rollout_color=0xffffff&show_body=1&widget_name=no name&used_theme=1&lang1=Loading..."/><div style="text-align:center; font-size:11px;"></div><div style="text-align:center; font-size:11px;"></div></div><!--3 lines up-->
+
+<!-- DR twitter -->
+<div class ="container" style = "position:relative; z-index: 7; width:280px; float:right">
+<!--here--><div id="twitterDR" style="position:absolute; top:-930px; right:5; color:white; font-size:10px; z-index:4; display:none"><a class="twitter-timeline" href="https://twitter.com/hashtag/DominicanRepublic" data-widget-id="634807104046563329"  height="680"  data-link-color="#5C8A00"  data-chrome="noborders transparent noscrollbar">#local Tweets</a><!--though account-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+</div>
+<!--DR insta-->
+<div class ="container" style = "position:relative; z-index: 8; width: 100px; float: right">
+  <div id ="instaDR" style = "position:absolute; top:-220px; z-index:5; display:none; right: -150px">
+<iframe src="http://widget.websta.me/in/tag:DominicanRepublic/?s=100&w=3&h=2&b=0&p=-15" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:432px; height: 216px" ></iframe> <!-- websta - web.stagram.com --><!--cupertino-->
+</div>
+</div>
+<!--Dr spotify-->
+<div id = "spotDR" class = "container" style = "position: relative; z-index: 11; width: 300px; display:none; top: -75px; right: -5px">
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A5FLMZZbbuEYT4GWyLu9on9"  width="300" height="100" frameborder="0" allowtransparency="true"></iframe></div><!--Right above-->
+
+<!-- ParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParisParis-->
+<div class ="container" style = "position:relative; width: 240px; z-index:5; top: -100px; display:none"  id="newsFrance"><!--here-->
+<embed src="http://7feeds.com/rssinformer.swf?rssinformer.swf" width="240" height="710" id="informer" name="informer" bgcolor="d0x00000" quality="high" wmode="transparent" align="middle" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="http://7feeds.com/rssinformer.swf?version=1.4&title_format=center/_sans/16/0xff0000/b/ni/nu&subtitle_text=Widget title&subtitle_format=center/verdana/11/ff0000/b/ni/nu&feed_title_format=left/arial/14/0xffffff/b/ni/nu&feed_date_format=left/arial/12/0xffffff/b/ni/nu&feed_copy_format=left/arial/12/0xC8BDBD/b/i/nu&feed_text_format=left/arial/12/0x666666/nb/ni/nu&body_bgcolor=0x00000&title_bgcolor=0xEFEFEF&subtitle_bgcolor=0xE3E3E3&footer_bgcolor=0xd1d1d1&feed_bgcolor=0x00000&feed_highlight=0x002100&border_color=0x676767&summary_length=300&scroll_speed=50&item_spacing=12&scroll_buttons=1&num_of_entries=5&pause_time=3000&show_publish_time=1&show_entry_summary=1&show_entry_copyright=0&show_footer=1&use_rounded_corners=1&open_new_window=1&data_url=http://7feeds.com/feed.php&feed_url=http://7feeds.com/feed.php&feed_url=http%3A%2F%2Fwww%2Eenglish%2Erfi%2Efr%2Ffrance%2Frss&strip_tags=0&footer_powered_format=right/_sans/11/0x00000/nb/ni/nu&footer_feedo_format=left/_sans/11/0x676767/nb/ni/nu&x_size=240&y_size=710&feed_back_color=0x00000&feeds_num_color=0xffffff&buttons_onpress_color=0x676767&buttons_rollout_color=0xffffff&show_body=1&widget_name=no name&used_theme=1&lang1=Loading..."/><div style="text-align:center; font-size:11px;"></div><div style="text-align:center; font-size:11px;"></div></div><!--3 lines up-->
+
+<!-- DR twitter -->
+<div class ="container" style = "position:relative; z-index: 7; width:280px; float:right">
+<!--here--><div id="twitterFrance" style="position:absolute; top:-930px; right:5; color:white; font-size:10px; z-index:4; display:none"><a class="twitter-timeline" href="https://twitter.com/hashtag/France" data-widget-id="634808949338980352"  height="680"  data-link-color="#5C8A00"  data-chrome="noborders transparent noscrollbar">#local Tweets</a><!--though account-->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+</div>
+<!--DR insta-->
+<div class ="container" style = "position:relative; z-index: 8; width: 100px; float: right">
+  <div id ="instaFrance" style = "position:absolute; top:-220px; z-index:5; display:none; right: -150px">
+<iframe src="http://widget.websta.me/in/tag:DominicanRepublic/?s=100&w=3&h=2&b=0&p=-15" allowtransparency="true" frameborder="0" scrolling="no" style="border:none;overflow:hidden;width:432px; height: 216px" ></iframe> <!-- websta - web.stagram.com --><!--cupertino-->
+</div>
+</div>
+<!--Dr spotify-->
+<div id = "spotFrance" class = "container" style = "position: relative; z-index: 11; width: 300px; display:none; top: -75px; right: -5px">
+<iframe src="https://embed.spotify.com/?uri=spotify%3Aartist%3A1mbgj8ERPs8lWi7t5cYrdy"  width="300" height="100" frameborder="0" allowtransparency="true"></iframe></div><!--Right above-->
+
+</html>

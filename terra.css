@@ -1,0 +1,12 @@
+      html, body{padding: 0; margin: 0;} 
+      #earth_div{top: 0; right: 0; bottom: 0; left: 0; position: absolute !important;} /* controls style of earth?*/
+
+      body {
+    background-image: url("http://il1.picdn.net/shutterstock/videos/508573/thumb/1.jpg");
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
